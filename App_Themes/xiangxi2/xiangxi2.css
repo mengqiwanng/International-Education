@@ -1,0 +1,68 @@
+﻿body,ul,li,img,p,ol,h1,h2,h3,div {padding:0;margin:0;}
+#content{width:1000px;margin:0 auto;overflow: hidden;}
+/*
+#pic { height:182px; background:url(../../images/down.jpg) no-repeat; width:243px; 
+       background-repeat: no-repeat;background-position: 50% bottom; 
+
+.all{
+			overflow: hidden;
+}
+.left{
+			width: 200px;
+			height: 200px;
+			float: left;
+			background-color: #678232;
+		 	overflow: hidden;
+			margin-bottom: -10000px;
+			padding-bottom: 10000px;  
+}
+.right{
+			width: 500px;
+			height: 700px;
+			float: left;
+			background-color: #23ef67;
+		 	overflow: hidden;
+			margin-bottom: -10000px;
+			padding-bottom: 10000px;  
+}}*/
+
+
+
+#left4
+{
+    width:240px; float:left;padding-top:5px; 
+    padding-left:8px;color:#fff;font-size:14px;line-height:25px;
+    /*  height:1750px;background:url(../../images/down.jpg) no-repeat bottom right;   */  		
+ }
+#left4 h3
+{
+    color:#2C5F0D;font-size:15px;text-decoration:none;padding:5px 0px 2px 25px;
+    background:url(../../images/t1.jpg) no-repeat; width:210px; height:30px;
+            
+ } 
+#left4 ul{list-style:none;}
+#left4 ul li{padding-top:10px;}
+#left4 ul li a 
+{
+    color:#000;font-size:12px;text-decoration:none;padding:6px 150px 6px 20px;
+    border:1px solid #8ABA86 ;width:200px; height:20px;
+    background:url(../../images/tubiao1.png) no-repeat 2px 7px;
+}
+#left4 ul li a:hover {color:#f00;font-size:12px;text-decoration:none;}
+
+
+#right4{width:740px;float:right;padding-top:5px;padding-bottom:5px;padding-left:10px;border-left:1px solid #ccc;}
+#right4 h3
+{
+    color:#2C5F0D;font-size:15px;text-decoration:none;padding:8px 0px 2px 20px;
+    background: url(../../images/t2.jpg) no-repeat ;height:36px;
+}
+#right4 p{font-size:20px;padding:2px 0px 2px 20px;}
+
+#gb a{float:right;text-decoration:none;list-style:none;font-size:14px;color:#000;}
+#gb a:hover{color:#00f;}
+
+.r1{text-align:center; line-height:40px;font-size:13px;}
+.r2{text-indent:25px; line-height:40px;}
+.r3 p{text-align:center; font-size:12px;padding:2px 0px 2px 20px;}
+

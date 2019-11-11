@@ -1,0 +1,81 @@
+﻿body,ul,li,img,p,ol,h1,h2,h3,div {padding:0;margin:0;}
+
+#logo,#nav,#content,#footer,#line{width:1000px;margin:0 auto;}
+
+body{font-size:14px;}
+/*清除浮动*/
+.clear{clear:both;}
+
+/*logo*/
+#logo{background:url(../images/logo.png) no-repeat;height:200px;}
+
+/*nav*/
+#nav{background-color:#559A19;height:33px;}
+#nav ul{list-style:none;/*padding-left:1px;整条靠右10像素*/}
+#nav ul li{float:left;}
+#nav ul li a{
+          background :url(../images/例13-bg2.jpg) no-repeat;
+          width:90px;
+          height:33px;
+          display:block;
+          color:#fff;
+          margin-right:20px;/*框与框之间空隔20像素*/
+          text-decoration:none;
+          text-align:right ;
+          line-height:33px;
+          font-weight:bold;
+          font-size:14px;
+          padding-right:8px;
+}
+#nav ul li a:hover{ background:url(../images/例13-bg3.jpg) no-repeat;color:#000;}
+#nav ul li p{color:#fff;padding-top:8px;}
+
+/*线*/
+#line{border-bottom:1px solid #123402;height:1px;clear:both;}
+
+/*content-left*/
+#left{width:250px;float:left;}
+#left a{display:block;color:#000;text-decoration:none;line-height:20px;font-size:13px;padding:10px 0px 10px 0px;}
+#left p{padding:30px 0px 10px 5px;font-size:10px;}
+
+/*content-middle*/
+#middle{width:460px;float:left;padding-top:5px;}
+#middle1{width:460px;float:left;}
+
+#middle2{width:460px;float:left;}
+#biaoti1 p{padding:10px 0px 2px 5px;color:#2C5F0D;float:left;}
+#biaoti1 img{padding:10px 0px 2px 15px;float:left;}
+#biaoti2 p{padding:10px 0px 2px 5px;color:#2C5F0D;float:left;}
+#biaoti2 img{padding:10px 0px 2px 15px;float:left;}
+#wenzi1{padding:35px 0px 0px 10px; list-style:none;}
+#wenzi1 li{line-height:20px;background:url(../images/tubiao4.png) no-repeat 1px 6px;}
+#wenzi1 a{text-decoration:none;font-size:12px;color:#000;padding-left:18px;}
+#wenzi1 span{float:right;padding-right:5px;}
+#wenzi1 a:hover{color:#f00;}
+
+/*content-right*/
+#right{width:280px;float:right;padding-top:10px;}
+#right1{width:280px;height:330px;float:right;padding-top:10px;}
+#right1,#right2{width:280px;float:right;padding-top:10px;}
+#biaoti3 p{padding:0px 0px 10px 5px;color:#2C5F0D;float:left;}
+#biaoti3 img{padding:0px 0px 2px 13px;float:left;}
+#biaoti4 p{padding:0px 0px 2px 5px;color:#2C5F0D;float:left;}
+#biaoti4 img{padding:0px 0px 2px 13px;float:left;}
+#wenzi2{padding:40px 0px 0px 10px; list-style:none;}
+#wenzi2 li{line-height:20px;background:url(../images/tubiao1.png) no-repeat 2px 6px;}
+#wenzi2 a{text-decoration:none;font-size:12px;color:#000;padding-left:18px;}
+#wenzi2 span{float:right;padding-right:5px;}
+#wenzi2 a:hover{color:#f00;}
+#wenzi3{padding:35px 0px 0px 10px; list-style:none;}
+#wenzi3 li{line-height:20px;background:url(../images/tubiao4.png) no-repeat 1px 6px;}
+#wenzi3 a{text-decoration:none;font-size:12px;color:#000;padding-left:18px;}
+#wenzi3 span{float:right;padding-right:5px;}
+#wenzi3 a:hover{color:#f00;}
+
+#biaoti2 a{padding-left:385px;}
+#biaoti3 a,#biaoti4 a{padding-left:205px;}
+
+/*footer*/
+#footer{background:url(../images/di-logo.png); padding-top:10px;height:110px;}
+#footer h3{text-align:center;line-height:23px;}
+#footer p{text-align:center;line-height:23px;}
